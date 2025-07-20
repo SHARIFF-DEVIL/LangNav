@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 
 # ✅ Set your OpenRouter API Key
-openai.api_key = "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"
+openai.api_key = "Open_ai_key" #replace your openai key
 openai.api_base = "https://openrouter.ai/api/v1"
 
 def get_recommendation(purpose, domain, time, native):
